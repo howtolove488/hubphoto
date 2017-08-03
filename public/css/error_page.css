@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+}
+body {
+  font-family: 'Lobster', cursive;
+  color: #ad4747;
+  background: #f9f1e6
+}
+.container {
+  position: absolute;
+  width: 40%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container img {
+  width: 300px;
+}
+.container h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.container .group-link {
+  margin-top: 20px;
+}
+.container .group-link a {
+  text-decoration: none;
+  color: #ad4747;
+}
+.container .group-link a:first-child {
+  margin-left: 5px;
+}
